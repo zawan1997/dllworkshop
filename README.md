@@ -20,3 +20,17 @@
 5. git push origin master 
 
 to push and update, do from step 3 
+
+If want to pull from a specific location:
+
+git pull <repo name>
+
+git branch -a to see everything
+
+git branch -delete <branch name> to delete a local branch
+
+git remote rm origin <to delete origin>
+
+to checkout to develop branch before going to master
+git checkout -b develop master
+git push -u origin develop
