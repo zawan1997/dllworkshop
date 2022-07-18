@@ -41,3 +41,8 @@ after finishin, merge back to master
 git checkout master <to go into master and to make it default>
 git merge develop <to update master with things from develop>
 git push -u origin master <push to remote master>
+
+if did work in master then now want to pull to develop
+git checkout develop
+git merge master
+git push -u origin develop
