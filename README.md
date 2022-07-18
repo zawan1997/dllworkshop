@@ -33,4 +33,11 @@ git remote rm origin <to delete origin>
 
 to checkout to develop branch before going to master
 git checkout -b develop master
-git push -u origin develop
+git add* (now its in develop branch)
+git commit -m "develop branch add"
+git push -u origin develop (push to remote git develop branch)
+
+after finishin, merge back to master 
+git checkout master <to go into master and to make it default>
+git merge develop <to update master with things from develop>
+git push -u origin master <push to remote master>
